@@ -1,0 +1,150 @@
+
+.first-home-com {
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+  
+    .main-input-home::placeholder {
+        opacity: 0.5; /* Adjust the opacity value as needed (0.0 to 1.0) */
+        font-size: 30px;
+        color: black !important; 
+
+      }
+      
+      .main-input-home{
+        border: none;
+        width: 30vw;
+        height: 6vh;
+       
+      }
+       
+      .home-page-heading{
+        color: #094067;
+      }
+
+
+      .home-heading{
+        padding-bottom: 200px;
+        padding-top: 100px;
+        color: white;
+      }
+
+      #claimyourfiyinput{
+        width: 40vw;
+        border-radius: 50px;
+      }
+
+      #claimyourfiyinput:focus {
+        outline: none; /* Remove the outline (focus indicator) */
+        border: none; /* Remove the border */
+      }
+      
+
+      #claimyourfiy{
+        margin-bottom: 1vh;
+        border-radius: 20px;
+        background-color: #6640f4;
+      }
+
+      .discoverh1tag{
+       font-size: 3rem;
+       margin-top: 10vh;
+       margin-bottom: 10vh;
+       font-weight: 820;
+       color: #000000;
+       word-spacing: 10px;
+
+       
+      }
+
+   #input-home{
+    position: relative;
+    width: 50vw;
+    margin-left: 1vw;
+    height: 9vh;
+    border-radius: 32px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   .services{
+    background-image: url('../../public/shap_style_6.png');
+    background-size: cover;
+    color: white;
+    margin-left: 12px;
+   }
+
+   #background-home {
+    text-align: center;
+    display: flex;
+    background-color: #4481eb;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    /* Set background images separately */
+    background-image: url('../../public/Home-4.png'), url('../../public/Home-6.png'), url('../../public/Home-5.png'),url('../../public/Home-7.png');
+    background-size: 20% auto, 20% auto, 30% auto, 25% auto; /* Specify background size for all images */
+    background-position: left top, right top, left bottom,right bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat,no-repeat;
+    animation: backgroundMovement 2s alternate infinite ease-in-out;
+  }
+  
+  @keyframes backgroundMovement {
+    0% {
+      background-position: left top, right top, left bottom,right bottom;
+    }
+    100% {
+      background-position: left calc(15% - 10px), calc(90% + 10px) top, left calc(94% - 10px) ,  right bottom ; 
+    }
+  }
+   @media screen and (max-width: 768px) {
+          
+    .discoverh1tag{
+      font-size: 1.6rem;
+      
+     }
+     
+     .home-heading{
+      padding-bottom: 200px;
+      padding-top: 100px;
+      color: white;
+      
+    }
+    
+    #input-home{
+     
+      width: 80vw;
+      
+     }
+     #claimyourfiyinput{
+      width: 85vw;
+    }
+    #mainhomeinput{
+      flex-direction: column;
+    }
+
+    #background-home {
+      background-position: left top, right top, left top, right top;
+    }
+
+
+    
+    
+
+
+  }
+
+  #mainhomeinput{
+    display: flex;
+    flex-direction: row;
+  }
+
+ 
+  
+   
+  

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');*, 
+::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #fff;
+  }
+
+  .about-phone-bio{
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+    color: black;
+  }
+  .Name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+
+  }
+  .Color-biopage-background{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: larger;
+  }
+  
+  .container {
+/* From https://css.glass */
+
+
+    padding: 8px 8px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* background: #f1f1f1; */
+    margin: 100px auto 0;
+    word-break: break-all;
+    border-radius: 16px;
+    margin-top: 10vh;
+ 
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .bio-mainphone{
+    margin-top: 2vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+
+  
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+  
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    /* background: rgba(128, 128, 128, 0.075); */
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    background: rgba(255, 255, 255, 0.274);
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100%);
+    height: 5px;
+    background: rgb(88, 147, 241);
+  }
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    /* background: rgb(28, 2, 134); */
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+    color: #212529;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+
+
+  /* scroll bar */
+  
+  ::-webkit-scrollbar {
+    width: 7px;
+    border: 1px solid #000000;
+  
+   
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 0  ;
+    background: #eeeeee;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #b0b0b0;
+  }
+
+
+
+
+
+/* 
+  @media (max-width: 1260px) {
+    .bio-mainphone {
+     display: none;
+    }
+
+  } */
+
+
+  /* media queries */
+
+  @media (max-width: 760px) {
+    /* .bio-mainphone {
+     display: none;
+    } */
+
+    
+    
+    
+    
+    
+    .links-div{
+
+     width: 60vw;    
+     margin-bottom: 3vh;
+   
+  }
+ .search-box{
+  margin-left:13vw;
+  min-width: 53vw;
+ }
+ .edit-btn{
+  align-self: center;
+ }
+ 
+
+.bio-phone{
+  margin-right: 40vw;
+}
+.social-btn{
+  margin-left: 15vw;
+}
+.submit-biopage{
+  margin-left: 16vw;
+}
+
+
+
+ 
+}
+  
+
+
+
+.parent-templates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+
+  .product-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    }
+  
+
+
+
+
+    
+     

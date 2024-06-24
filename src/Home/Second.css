@@ -1,0 +1,100 @@
+.second-home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-row-gap: 0px;
+    gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: #E9C0E9;
+    height: 100%;
+    justify-content: space-between; /* Add this line */
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 5vw;
+    overflow-y: hidden;
+  }
+
+  @media screen and (max-width:426px){
+    .second-home{
+        padding-top: 0px;
+        padding-left: 0vw;
+        padding-bottom: 0px;
+
+
+    }
+    .home-h2heading{
+        padding-right: 30px;
+    }
+    
+  
+  
+}
+  
+
+    .second-home-grid-2{
+        display: flex;
+        align-items: center;  
+        justify-content: center;
+    }
+
+    .second-home-grid-1{
+        display: block;
+        align-items: center;
+        padding-left: 8vw;
+        
+        
+    }
+   
+    .home-heading2{
+        color: black;
+        font-size: clamp(20px, 8vmin, 40px);
+        line-height: 2;
+                 
+    }
+    .nextlevel-span{
+        font-family: "Link Sans", "Arial Black", Arial, sans-serif;
+        font-size: 45px;
+        letter-spacing: 8px;
+    }
+
+    .second-home-grid-2 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .second-home-grid-2::before {
+        content: "";
+        background-image: url('../../public/bubble.png');
+        background-size:cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        animation: circularMotion 80s linear infinite; /* Adjust the duration as needed */
+      }
+      
+      @keyframes circularMotion {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .third-background {
+        position: absolute;
+        top:24%;
+        left: 14%;
+        width: 60%;
+        height: 60%;
+        z-index: 0;
+        background-image: url('../../public/second.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      
+      

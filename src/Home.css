@@ -1,0 +1,201 @@
+
+
+.first-home {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    overflow-x: hidden;
+
+    }
+   #input-home{
+    position: relative;
+    width: 20vw;
+    margin-left: 3vw;
+   }
+
+    .second-home {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10rem;
+        grid-row-gap: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        overflow-x: hidden;
+        }
+   
+
+      
+
+        
+
+
+
+        .third-home {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 10rem;
+            grid-row-gap: 0px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            overflow-x: hidden;
+            }
+
+            #background-home {
+              text-align: center;
+              display: flex;
+              background-color: #4481eb;
+              justify-content: center;
+              height: 100%;
+              /* Set background images separately */
+              background-image: url('../public/Home-4.png'), url('../public/Home-6.png'), url('../public/Home-7.png');
+              background-size: 20% auto, 20% auto, 20% auto; /* Specify background size for all images */
+              background-position: left top, right top, left bottom;
+              background-repeat: no-repeat, no-repeat, no-repeat;
+              animation: backgroundMovement 2s alternate infinite ease-in-out;
+              overflow-x: hidden;
+            }
+            
+            @keyframes backgroundMovement {
+              0% {
+                background-position: left top, right top, left bottom;
+              }
+              100% {
+                background-position: left calc(15% - 10px), right calc(18% - 10px), left calc(90% - 10px); 
+              }
+            }
+            
+            
+            
+
+
+            .home-h2heading{
+              border-bottom:2px solid black;
+              font-size: 1.5rem;
+              color: #502274;
+              padding-bottom: 20px;
+              padding-right: 10px;
+              font-family: "Inter", sans-serif;
+              margin-top: 4rem;
+              
+
+            }
+            @media screen and (max-width: 768px) {
+          
+              .home-h2heading{
+                border-bottom: none;
+                
+    
+              }
+
+              #input-home{
+               
+                width: 60vw;
+                
+               }
+
+
+            }
+            
+
+          
+
+
+              .price-home{
+                font-size: 4rem;
+                letter-spacing: 20px;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                font-weight: 800;
+                background-color: #21257b;
+                padding-top: 1rem;
+              }
+/* 
+              .icons-grid{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 1fr;
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                } */
+
+                .icons-grid {
+                  display: flex;
+                 flex-direction: row;
+                 flex-wrap: wrap;              
+                 }
+                 .home-heading{
+                  color: #fefae0 ;
+                  line-height: 1.1;
+                  font-weight: 700;
+                  font-size: 400%;
+                  padding: 80px 40px;
+                  font-size: 85px;
+                  color: #E9C0E9;
+                }
+
+                .home-heading2{
+                  line-height: 1.4;
+                  font-size: 3rem;
+                  padding-bottom: 1rem;
+                  font-weight: bolder;
+                  margin-top: 5rem;
+                
+                  
+
+                }
+
+              
+                
+
+              .img1-home{
+                height: 40rem;
+                width: 80%;
+                /* margin-top: 2rem; */
+                
+               }
+               .nextlevel-span{
+                font-size: 4rem;
+                color: white;
+                background-image: url(../public/shap_style_6.png);
+                
+               }
+
+              @media screen and (max-width:426px){
+                .img1-home{
+                 height: 24rem;
+                 margin-left: 6%;
+                 
+                }
+                .price-home{
+                    font-size: 100%;
+                  }
+                
+                  .home-heading{
+                    font-size: 2.5rem;
+                  }
+                  .home-heading2{
+                    font-size: 2.2rem;
+                  }
+                  .nextlevel-span{
+                    font-size: 3.2rem;
+                   }
+              }
+
+              .home-4 {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 1fr;
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                background-color: #254F1A;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                overflow-x: hidden;
+                
+                }
+                
+
+            
+                

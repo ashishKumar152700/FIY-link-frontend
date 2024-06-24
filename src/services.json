@@ -1,0 +1,29 @@
+[
+  {
+    "img": "/icons/twitter.png",
+    "info": "Twitter",
+    "text": "You can provide the answers that your potential customers are trying to find, so you can become the industry."
+  },
+  {
+    "img": "/icons/linkedin.png",
+    "info": "Linked IN",
+    "text": "Get more website traffic, more customers & more online visibility with powerful SEO services."
+  },
+  {
+    "img": "/icons/whatsapp.png",
+    "info": "Whats App",
+    "text": "You can provide the answers that your potential customers are trying to find, so you can become the industry"
+  },
+ 
+  
+  {
+    "img": "/icons/instagram.png",
+    "info": "Instagram",
+    "text": "You can provide the answers that your potential customers are trying to find, so you can become the industry"
+  },
+  {
+    "img": "/icons/youtube.png",
+    "info": "You Tube",
+    "text": "You can provide the answers that your potential customers are trying to find, so you can become the industry"
+  }
+]

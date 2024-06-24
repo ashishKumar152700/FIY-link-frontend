@@ -1,0 +1,136 @@
+.card {
+    height: 120px;
+    position: relative;
+    width: 96px;
+  }
+  
+  .card .overlap-group {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/342598c3d7d2a185d6318fb5c89fed72/img/bg-13.svg);
+    background-size: 100% 100%;
+    height: 130px;
+    left: -4px;
+    position: absolute;
+    top: -4px;
+    width: 112px;
+  }
+  
+  .card .pic {
+    height: 49px;
+    left: 7px;
+    position: absolute;
+    top: 5px;
+    width: 87px;
+  }
+  
+  .card .price {
+    height: 20px;
+    left: 14px;
+    position: absolute;
+    top: 95px;
+    width: 76px;
+  }
+  
+  .card .element {
+    color: #808080;
+    font-family: "Rubik", Helvetica;
+    font-size: 6.2px;
+    font-weight: 500;
+    height: 6px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 7.4px;
+    position: absolute;
+    text-align: right;
+    text-decoration: line-through;
+    top: 0;
+    white-space: nowrap;
+    width: 72px;
+  }
+  
+  .card .text-wrapper {
+    color: #941b0c;
+    font-family: "Rubik", Helvetica;
+    font-size: 14.7px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 17.7px;
+    position: absolute;
+    text-align: right;
+    top: 6px;
+    white-space: nowrap;
+    width: 72px;
+  }
+  
+  .card .info {
+    height: 27px;
+    left: 14px;
+    position: absolute;
+    top: 62px;
+    width: 76px;
+  }
+  
+  .card .lorem-ipsum-dolor {
+    color: #000000;
+    font-family: "Rubik", Helvetica;
+    font-size: 8.2px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 9.9px;
+    position: absolute;
+    top: 0;
+    width: 72px;
+  }
+  
+  .card .identifier-number {
+    color: #808080;
+    font-family: "Rubik", Helvetica;
+    font-size: 4.8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 8.6px;
+    opacity: 0.7;
+    position: absolute;
+    top: 20px;
+    white-space: nowrap;
+    width: 72px;
+  }
+  
+  .card .basket {
+    height: 15px;
+    left: 12px;
+    position: absolute;
+    top: 177px;
+    width: 19px;
+  }
+
+  card-div{
+  
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+  
+  }
+  .card-bar{
+    flex: 1;
+    
+    flex-direction: row;
+    padding: 10px 0px;
+    transition: 0.3s;
+    width: 90%;
+   
+    
+    
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+    
+
+
+  }
+  a:link { text-decoration: none;
+  margin-left: 2vw; }
+  

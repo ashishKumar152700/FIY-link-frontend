@@ -1,0 +1,65 @@
+    .third-home {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10rem;
+        grid-row-gap: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        overflow-x: hidden;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-color: #246b78;
+
+        }
+
+
+        @media screen and (max-width:426px){
+            .third-home {
+            
+                padding-top: 0px;
+                padding-bottom: 0px;
+            
+            
+                }
+        }
+
+        .third-grid-1 {
+            position: relative;
+            margin-top: 10vh;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+          }
+          
+          .image-overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url('../../public/bubble.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            animation: circularMotion 80s linear infinite; /* Adjust the duration as needed */
+          }
+          
+          @keyframes circularMotion {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+          
+          
+          
+
+    
+
+        
+
+        
